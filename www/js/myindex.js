@@ -1,7 +1,8 @@
 define([], function() {
   return View.extend({
     events: {
-
+        'click .appDown' : 'showDownMask',
+        'click .dontNeed' : 'hideDownMask',
     },
     render: function() {    
         this.startSwiper();
@@ -36,6 +37,16 @@ define([], function() {
                     autoplayDisableOnInteraction : false,
                 })
             }  
+    },
+
+    showDownMask: function(){
+        $('.maskLayer').removeClass("hidden");
+    },
+
+
+    hideDownMask: function(){
+        alert("message");
+        $('.maskLayer').addClass("hidden");
     },
 
 
