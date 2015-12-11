@@ -84,6 +84,7 @@ div,p,span,img,ul,li{
     height: 50px;
     line-height: 50px;
     text-align: center;
+    border-radius: 5px;
     background: #ECFFFD;
     font-size: 18px;
     font-weight: bold;
@@ -114,7 +115,7 @@ div,p,span,img,ul,li{
     display: inline-block;
     font-size: 14px;
     position: absolute;
-    top: 40px;
+    top: 45px;
     left: 85px;
 }
 .editDescription{
