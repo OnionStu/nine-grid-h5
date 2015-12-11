@@ -1,0 +1,56 @@
+div,p,span,img,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mytitle{
+    background-color: #158AD9;
+    padding-top: 5px;
+}
+.mytitle img{
+    width: 85px;
+}
+.mytitle .userimg{
+    width: 20px;
+    margin-top: 5px;
+}
+#page-action .bar .backDiv{
+    color: #fff;
+}
+.beBold{
+    font-weight: bold;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 145px;
+}
+.swiper-container{
+    padding-bottom: 10px;
+}
+/*.swiper-container-horizontal>.swiper-pagination{
+    bottom: 30px;
+}*/
+.myproject ul{
+   border-top: 1px solid #ccc; 
+}
+.myproject ul li{
+    width: 33.3%;
+    height: 106px;
+    float: left;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
+}
+.myproject ul li img{
+    width: 35px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.myproject ul li p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
