@@ -7,6 +7,9 @@ define([], function() {
     render: function() {    
         this.startSwiper();
         this.startContentSwiper();
+        $(document).on("click",".footRight",function(){
+            $('.maskLayer').addClass("hidden");
+        });
     },
 
     startSwiper: function(){
@@ -23,10 +26,6 @@ define([], function() {
                 autoplayDisableOnInteraction : false,
             })
         }  
-    },
-
-    console: function(){
-        console.log("click");
     },
 
     startContentSwiper: function(){
@@ -46,9 +45,5 @@ define([], function() {
     showDownMask: function(){
         $('.maskLayer').removeClass("hidden");
     },
-
-    abc: function(){
-        $('.maskLayer').addClass("hidden");
-    }
   });
 });
