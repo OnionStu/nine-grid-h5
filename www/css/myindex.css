@@ -59,7 +59,11 @@ div,p,span,img,ul,li{
 .myproject ul li p{
     text-align: center;
     font-size: 12px;
-    margin-top: 10px;
+    width: 80px;
+    margin: 10px auto 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .maskLayer{
     width: 100%;
