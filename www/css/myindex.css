@@ -15,6 +15,9 @@ div,p,span,img,ul,li{
     width: 20px;
     margin-top: 5px;
 }
+.content{
+    padding-bottom: 50px;
+}
 #page-action .bar .backDiv{
     color: #fff;
 }
